@@ -2,10 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dealership {
-    private List<String> carList = new ArrayList<String>();
+    private List<String> carList = new ArrayList<>();
 
     public Dealership() {
-
     }
 
     public synchronized void produceOneCar(String name) {

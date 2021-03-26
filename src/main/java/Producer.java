@@ -9,7 +9,6 @@ public class Producer implements Runnable {
     @Override
     public void run() {
         System.out.println("Завод по производству автомобилей: запущен.");
-        int count = 0;
         for (int i = 0; i < MAX_AUTO; i++) {
             try {
                 Thread.sleep(2000);
